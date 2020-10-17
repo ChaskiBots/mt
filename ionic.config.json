@@ -1,0 +1,8 @@
+{
+  "name": "mt",
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
+  "type": "angular"
+}

@@ -1,0 +1,64 @@
+<ion-app>
+
+    <ion-menu side="start" 
+    menuId="first"
+    contentId="principal">
+
+<ion-header>
+<ion-toolbar color="primary">
+<ion-title>Menu</ion-title>
+</ion-toolbar>
+</ion-header>
+
+<ion-content>
+<div class="menu-header-bg"></div>
+<div class="header-content">
+<img src="../assets/galeria/mt.png" alt="">
+<ion-label>
+<h2>Mejía Travel</h2>
+<p>Cantón Mejía</p>
+</ion-label>
+</div>
+
+<div class="action-button">
+<ion-button >
+<ion-icon slot="start" name="add"></ion-icon>Ciencia
+</ion-button>
+</div>
+
+
+
+<ion-list class="menu-items" lines="none">
+
+<ion-menu-toggle>
+<ion-item routerLink="/ciencia">
+<ion-icon name="pie-chart-outline"></ion-icon>
+<ion-label>Ciencia</ion-label>
+</ion-item>
+</ion-menu-toggle>
+
+<ion-item>
+<ion-icon name="browsers-outline"></ion-icon>Arte
+</ion-item>
+<ion-item class="active" >
+<ion-icon name="flash"></ion-icon>Cultura
+</ion-item>
+<ion-item>
+<ion-icon name="chatbubble-ellipses-outline"></ion-icon>Deportes
+</ion-item>
+<ion-item>
+<ion-icon name="heart-outline"></ion-icon>Gente
+</ion-item>
+<ion-item>
+<ion-icon name="exit-outline"></ion-icon>Contacto
+</ion-item>
+
+
+</ion-list>
+</ion-content>
+
+</ion-menu>
+
+
+<ion-router-outlet id="principal"></ion-router-outlet>
+</ion-app>
