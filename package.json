@@ -28,8 +28,8 @@
     "@ionic-native/status-bar": "^5.0.0",
     "@ionic/angular": "^5.0.0",
     "angular2-google-maps": "^0.17.0",
-    "cordova-android": "9.0.0",
     "cordova-browser": "6.0.0",
+    "cordova-common": "^4.0.2",
     "rxjs": "~6.5.5",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.3"
@@ -46,6 +46,7 @@
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "^12.11.1",
     "codelyzer": "^6.0.0",
+    "cordova-androidx-build": "^1.0.4",
     "cordova-plugin-device": "^2.0.2",
     "cordova-plugin-ionic-keyboard": "^2.2.0",
     "cordova-plugin-ionic-webview": "^4.2.1",
@@ -78,8 +79,8 @@
       "cordova-plugin-ionic-keyboard": {}
     },
     "platforms": [
-      "android",
-      "browser"
+      "browser",
+      "android"
     ]
   }
 }
